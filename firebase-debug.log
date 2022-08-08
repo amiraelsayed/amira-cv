@@ -1,0 +1,76 @@
+[debug] [2022-08-08T10:02:47.450Z] ----------------------------------------------------------------------
+[debug] [2022-08-08T10:02:47.452Z] Command:       /usr/local/Cellar/node/18.6.0/bin/node /usr/local/bin/firebase init
+[debug] [2022-08-08T10:02:47.453Z] CLI Version:   11.4.2
+[debug] [2022-08-08T10:02:47.453Z] Platform:      darwin
+[debug] [2022-08-08T10:02:47.453Z] Node Version:  v18.6.0
+[debug] [2022-08-08T10:02:47.454Z] Time:          Mon Aug 08 2022 12:02:47 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-08-08T10:02:47.454Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-08T10:02:47.462Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-08T10:02:47.463Z] > authorizing via signed-in user (a.elsayed2010@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/amira/Desktop/cv
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-08T10:03:02.747Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-08T10:03:03.890Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-08T10:03:03.890Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project amira-cv (amira-cv) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-08T10:03:55.545Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-08T10:03:56.040Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-08T10:03:56.040Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.2","browserURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.memory.js"}}
+[info] ✔  Wrote y/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming /Users/amira/Desktop/cv is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=140583824&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-08T10:05:03.114Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-08T10:05:03.115Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-08T10:05:04.100Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-08T10:05:04.101Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-08T10:05:04.111Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-08T10:05:04.710Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-08T10:05:04.711Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"amiraelsayed","id":3120646,"node_id":"MDQ6VXNlcjMxMjA2NDY=","avatar_url":"https://avatars.githubusercontent.com/u/3120646?v=4","gravatar_id":"","url":"https://api.github.com/users/amiraelsayed","html_url":"https://github.com/amiraelsayed","followers_url":"https://api.github.com/users/amiraelsayed/followers","following_url":"https://api.github.com/users/amiraelsayed/following{/other_user}","gists_url":"https://api.github.com/users/amiraelsayed/gists{/gist_id}","starred_url":"https://api.github.com/users/amiraelsayed/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/amiraelsayed/subscriptions","organizations_url":"https://api.github.com/users/amiraelsayed/orgs","repos_url":"https://api.github.com/users/amiraelsayed/repos","events_url":"https://api.github.com/users/amiraelsayed/events{/privacy}","received_events_url":"https://api.github.com/users/amiraelsayed/received_events","type":"User","site_admin":false,"name":"Amira Elsayed Ismail","company":null,"blog":"","location":"Giza , Egypt","email":"a.elsayed2010@gmail.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":8,"public_gists":0,"followers":5,"following":0,"created_at":"2012-12-25T09:59:03Z","updated_at":"2022-04-07T22:08:46Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":94232,"collaborators":5,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as amiraelsayed 
+[info] 
+[debug] [2022-08-08T10:05:14.291Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-08-08T10:05:14.716Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-08-08T10:05:14.716Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-08T10:06:17.685Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-08-08T10:06:18.319Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-08-08T10:06:18.320Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-08T10:06:29.596Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-08T10:06:30.093Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-08T10:06:30.093Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-08T10:06:30.726Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-08T10:06:31.231Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-08T10:06:31.231Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-08T10:06:32.044Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-08T10:06:32.513Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-08T10:06:32.513Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
